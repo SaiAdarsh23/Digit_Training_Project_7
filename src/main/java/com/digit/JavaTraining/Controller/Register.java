@@ -17,7 +17,7 @@ import com.digit.JavaTraining.Model.Aadhar;
 public class Register extends HttpServlet{
 	private Session session;
 	
-	@Override
+	@Override 
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
 		Aadhar a = new Aadhar();

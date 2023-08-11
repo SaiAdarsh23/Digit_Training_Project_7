@@ -15,7 +15,7 @@ import com.digit.JavaTraining.Model.Aadhar;
  
 @WebServlet("/delete")
 public class Delete extends HttpServlet{
-
+ 
 	private Session session;
 	
 	@Override

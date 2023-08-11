@@ -20,7 +20,7 @@ public class Aadhar {
 	String Email;
 	Long Phone;
 	String Address;
-	String City;
+	String City; 
 	String State;
 	int PinCode;
 

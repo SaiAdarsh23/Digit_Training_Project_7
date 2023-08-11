@@ -17,7 +17,7 @@ import com.digit.JavaTraining.Model.Aadhar;
 public class ViewSpecific extends HttpServlet {
 
 	private Session session;
-
+ 
 	@Override 
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		int ano = Integer.parseInt(req.getParameter("ano"));

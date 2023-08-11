@@ -9,7 +9,7 @@
 <hibernate-mapping>
   
     <class name="com.digit.JavaTraining.Model.Aadhar" table="AadharTable">
-
+ 
         <id name="AadharNumber" column="AadharNumber"></id>
 
         <property name="Name" column="Name"></property>
