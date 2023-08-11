@@ -7,7 +7,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <style>
-body {
+body { 
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;

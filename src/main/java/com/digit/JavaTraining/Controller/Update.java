@@ -21,7 +21,7 @@ public class Update extends HttpServlet{
 		
 		int ano = Integer.parseInt(req.getParameter("ano"));
 		String mail = req.getParameter("email");
-		
+		  
 		Aadhar a = new Aadhar();
 		
 		boolean b = a.update(ano, mail);

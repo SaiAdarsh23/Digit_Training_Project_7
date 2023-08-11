@@ -7,7 +7,7 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-
+  
     <class name="com.digit.JavaTraining.Model.Aadhar" table="AadharTable">
 
         <id name="AadharNumber" column="AadharNumber"></id>

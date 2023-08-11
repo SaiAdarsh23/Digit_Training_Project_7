@@ -21,7 +21,7 @@ public class Register extends HttpServlet{
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
 		Aadhar a = new Aadhar();
-		
+		     
 		a.generateaadhar();
 		a.setName(req.getParameter("name"));
 		a.setEmail(req.getParameter("email"));

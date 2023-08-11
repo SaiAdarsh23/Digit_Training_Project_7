@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.hibernate.Session;
 
 import com.digit.JavaTraining.Model.Aadhar;
-
+ 
 @WebServlet("/delete")
 public class Delete extends HttpServlet{
 

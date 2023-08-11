@@ -16,7 +16,7 @@ import org.hibernate.service.ServiceRegistryBuilder;
 public class Aadhar {
 
 	int AadharNumber;
-	String Name;
+	String Name; 
 	String Email;
 	Long Phone;
 	String Address;
